@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=“Keywords” content="pousada, Natureza">
+    <meta name=“Description” content="Pousada recanto da natureza">
+    <link rel="stylesheet" href="Estilo.css">
+    <title>Pousada Recanto da Natureza</title>
+</head>
+
+<body>
+    <nav>
+        <header>
+
+            <ul>
+                <li><img src="logo.png" alt="Logo" id="logo"></li>
+                <li><a href="index.html">Pousada Recanto da Natureza</a></li>
+
+                <li class="active"><a href="hospedagem.html">Reservas</a></li>
+
+                <li><a href="hosp.html">Serviços e Instalações</a></li>
+
+            </ul>
+        </header>
+
+
+        <fieldset>
+            <legend style="font-weight: bold">Preencha os campos para registrar sua estadia.</legend>
+            <form>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" autofocus required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </p>
+                <p>
+                    <label for="email">Confirmar E-mail:</label>
+                    <input type="email" id="email" required>
+                </p>
+                <p>
+                    <label for="cpf">RG</label>
+                    <input type="number" id="RG" required>
+                </p>
+                <p>
+                    <label for="Nasc">Data de Nascimento</label>
+                    <input type="date" id="Nasc" autofocus required>
+                </p>
+                <p>
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" id="sexom"> Masculino
+                    <input type="radio" name="sexo" id="sexof"> Feminino
+                </p>
+                <p>
+                    <label for="quartos">Tipo de Quarto</label>
+                    <select id="quartos">13
+                        <option value="Solteiro Quarto">Solteiro R$ 300</option>
+                        <option value="Casal Quarto">Casal R$ 450</option>
+                        <option value="Familia Quarto">Família R$ 600</option>
+                        <option value="Premium Quarto">Premium R$ 900</option>
+
+
+
+                    </select>
+
+                </p>
+                <p>
+
+                    <label for="cafe no quarto">Café da Manhã no Quarto (Caso nao queira deixar em branco)</label>
+
+                    <input type="radio" name="radio" id="cafe no quarto Incluso"> Incluso(R$50)
+                </p>
+                <p>
+                    <dt>Confirme seus dados para verificarmos a disponibilidade de quartos.</dt>
+                </p>
+                <p>
+                    <h3>Quartos:</h3>
+                    <article>
+                        <p>• Solteiro: Uma cama, Frigobar, TV.</p>
+                        <p>• Casal: Uma cama de casal, Frigobar, Minicozinha.</p>
+                        <p>• Família: Cama Queen Size e duas camas de solteiro, Frigobar, Minicozinha.</p>
+                        <p>• Premium: Cama King Size, Serviço de quarto gratuito, Frigobar (Sem custo adicional ao
+                            utilizar).</p>
+                        <p>• Observação: Todos os quartos possuem uma banheira com hidromassagem, Wifi incluso, TV's.
+                        </p>
+
+
+                    </article>
+                    <p>
+                        <input type="submit" value="Verificar disponibilidade">
+                        <input type="reset" value="Limpar dados">
+                    </p>
+        </fieldset>
+    </nav>
+
+</body>
+
+</html>
